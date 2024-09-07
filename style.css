@@ -1,0 +1,112 @@
+/* Add styles here */
+*{
+    margin: 0px;
+}
+.bg-container{
+   background-color: #FAFAF9;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-star{
+    background-color: #F5C044;
+    height: 40px;
+    width: 50px;
+    border-radius: 50px;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.content-container{
+    margin: 60px;
+}
+.title{
+    color: #18181B;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+.description{
+    color: #52525A;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.icon-item{
+    display: flex;
+    margin: 20px;
+}
+.list-icon{
+    color: green;
+    font-size: 20px;
+}
+.list{
+    color: #52525A;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-left{
+    margin-left: 100px !important;
+}
+.card-right{
+    margin-right: 200px !important;
+}
+.card{
+    height: 200px;
+    width: 330px;
+    background-color: #FAFAF9;
+    border-radius: 10px;
+    box-shadow: #52525A 0px 0px 10px;
+    margin: 20px;
+}
+.card-logo{
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+}
+.card-title{
+    color: #18181B;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.card-para{
+    color: #52525A;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.logo-content{
+    display: flex;
+}
+.star-logo{
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 425px) {
+    .bg-container{
+        flex-direction: column;
+    }
+    .card-left{
+        margin-left: 0px !important;
+    }
+    .card-right{
+        margin-right: 10px !important;
+    }
+    .card{
+        margin: 5px;
+    }
+}
